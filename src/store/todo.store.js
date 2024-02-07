@@ -54,7 +54,7 @@ const toggleTodo = ( todoId ) => {
     
     state.todos = state.todos.map( todo => {
         if(todo.id === todoId){
-            todo.done == !todo.done;
+            todo.done = !todo.done;
         }
         return todo;
     })
