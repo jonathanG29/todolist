@@ -61,7 +61,7 @@ const toggleTodo = ( todoId ) => {
 }
 
 const deleteTodo = ( todoId ) => {
-    state.todos = state.todos.filter( todo => todo.id !== todoId)
+    state.todos = state.todos.filter( todo => todo.id !==todoId)
 }
 
 const deleteCompleted = ( todoId ) => {
