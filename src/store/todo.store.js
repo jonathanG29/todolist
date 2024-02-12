@@ -7,11 +7,7 @@ export const Filters = {
 }
 
 const state =  {
-    todos: [
-        new Todo ('Piedra del alma'),
-        new Todo ('Piedra del infinito'),
-        new Todo ('Piedra del tiempo')
-    ],
+    todos: [   ],
     filter: Filters.All
 }
 
